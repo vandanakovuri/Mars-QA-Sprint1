@@ -34,8 +34,8 @@ namespace MarsQA.Hooks
         [AfterScenario]
         public void AfterScenario()
         {
-          //  Driver.driver.Quit();
-          //  Driver.driver.Dispose();
+              Driver.driver.Quit();
+              Driver.driver.Dispose();
         }
     }
 }
